@@ -1,0 +1,1362 @@
+﻿Test suit “Functionality of Shorts and Subscriptions tabs in the YouTube sidebar”
+Preparations
+The homepage of Youtube is open. Log in to a pre-created profile on the website by entering the email address ******@gmail.com and the password *****. The profile has subscriptions to channels. There is some imitation of the real user profile of the site.
+For particular test cases, an account for Vkontakte has been created.
+
+
+
+
+Module #1
+Shorts tab
+
+
+
+
+Test case #1
+Redirection to Shorts tab from homepage
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of the homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded 
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	
+
+
+
+Test case #2
+Sharing a video link via Vkontakte on a profile posting wall
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Click on the “Share” icon in the bottom right corner of the first video
+	3.A pop-up window with the link text and icons of different messengers, where the link can be shared, appears
+	4.Click on the Vkontakte icon
+	4.The user is redirected to the VKontakte website, with "Friends and Subscribers" as the default audience and "Add Image" as the default option.
+	5.Click on the "Send" button in the bottom right corner of the screen
+	5.A message appears: "Congratulations! The link will appear on your page. This window will close in a few seconds."
+	6.Switch to the Vkontakte profile wall view (option “My profile” in the sidebar)
+	6.The last post on the wall is the link to Youtube video
+	7.Click on the link to Youtube video
+	7.The video plays back on the profile posting wall
+	8.Click on the Youtube icon inside the playing video "Watch this video on youtube.com."
+	8.The link opens in the browser new tab, the video starts playing back
+	
+
+
+
+Test case #3
+Sharing a link to a video via "VKontakte" in a personal message
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Click on the “Share” icon in the bottom right corner of the first video
+	3.A pop-up window with the link text and icons of different messengers, where the link can be shared, appears
+	4.Click on the Vkontakte icon
+	4.The user is redirected to the VKontakte website, with "Friends and Subscribers" as the default audience
+	5.Select the "Send a personal message" option.
+	5.A list of recipients (friends added to the profile) appears.
+	6.Select a recipient from the list provided
+	6.The selected recipient is present in the personal message sending form
+	7.Click on the "Send" button in the bottom right corner of the screen
+	7.The message "Congratulations! The message has been sent successfully. This window will close in a few seconds" appears
+	8.Switch to the "Messenger" mode in the VKontakte profile (the "Messenger" option in the sidebar)
+	8.The last sent message is a message with a link to the YouTube video
+	9.Click on the YouTube link in the last sent message
+	9.The video starts playing back directly in the messenger
+	10.Click on the YouTube icon inside the playing video "Watch this video on youtube.com."
+	10.The link opens in the browser new tab, the video starts playing back
+	
+
+Test case #4
+Sharing a video link via email
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Click on the “Share” icon in the bottom right corner of the first video
+	3.A pop-up window with the link text and icons of different messengers, where the link can be shared, appears
+	4.Click on the "Email" icon
+	4.The user is redirected to the default email mailbox. A new email with the video link in the text of the email is opened
+	5.Specify the recipient (yourself) when creating a new email and send it
+	5.The email with the link to YouTube appears in the inbox
+	6.Open the email with the YouTube link
+	6.The email with the link opens correctly
+	7.Click on the link in the email
+	7.The link opens correctly in a new tab in the default browser, and the video starts playing back
+	
+
+
+
+Test case #5
+Sharing a video link by copying the link
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Click on the “Share” icon in the bottom right corner of the first video
+	3.A pop-up window with the link text and icons of different messengers, where the link can be shared, appears
+	4.Click on the "Copy" button
+	4.A message appears in the bottom left corner of the screen saying "Link copied to clipboard."
+	5.Open a new tab in the browser and paste the text link into the address bar
+	5.The link is fully displayed in the address bar
+	6.Press Enter
+	6.The page for the video appears and playback starts
+	
+
+
+
+Test case #6
+Viewing comments on a video
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Click on the "Comments" icon in the bottom right corner of the first video
+	3.A pop-up window with user comments appears
+	
+
+
+
+Test case #7
+Closing the comments pop-up window
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Click on the "Comments" icon in the bottom right corner of the first video
+	3.A pop-up window with user comments appears
+	4.Click on the "X" in the top right corner of the comments view window
+	4.The comments view window closes
+
+
+	
+
+
+
+Test case #8
+Posting a comment on a video
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Click on the "Comments" icon in the bottom right corner of the first video
+	3.A pop-up window with user comments and a field for entering your own comment appears
+	4.Enter a short message in the comment field
+	4.The entered message is displayed in the input field, the "Post Comment" button becomes active
+	5.Click on the "Post Comment" button
+	5.The comment is posted
+	6.Refresh the browser page
+	6.The comments window is closed, and the user sees the same Shorts video as before
+	7.Repeat step #3
+	7.A pop-up window with user comments appears. The personal comment is correctly displayed first
+	
+
+
+
+Test case #9
+Deleting a comment 
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Click on the "Comments" icon in the bottom right corner of the first video
+	3.A pop-up window with user comments and a field for entering your own comment appears
+	4.Enter a short message in the comment field
+	4.The entered message is displayed in the input field, the "Post Comment" button becomes active
+	5.Click on the "Post Comment" button
+	5.The comment is posted
+	6.Hover the mouse cursor over the line of the posted comment
+	6.A menu with actions (three dots) appears to the right side of the comment
+	7.Click on the action menu of a comment
+	7.The action menu expands correctly
+	8.Select the "Delete" option
+	8.A confirmation window for deleting the comment appears
+	9.Confirm the deletion of the comment by clicking on the "Delete" button
+	9.The comment disappears, and a message "Comment deleted" appears in the bottom left corner
+	10.Refresh the browser page
+	10.The comments window is closed, and the user sees the same Shorts video as before
+	11.Repeat step #3
+	11.A pop-up window with user comments appears. The personal comment is no longer displayed
+	
+
+
+
+Test case #10
+Editing a comment
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Click on the "Comments" icon in the bottom right corner of the first video
+	3.A pop-up window with user comments and a field for entering your own comment appears
+	4.Enter a short message in the comment field
+	4.The entered message is displayed in the input field, the "Post Comment" button becomes active
+	5.Click on the "Post Comment" button
+	5.The comment is posted
+	6.Select the "Edit" option
+	6.The input field for the comment becomes active, allowing the user to edit the comment
+	7.Add a small change to the comment
+	7.The change is entered in the input field and displayed correctly. The "Save" button becomes active
+	8.Click on the "Save" button
+
+
+	8.The edited comment is published, with an "Edited" label added to it
+	9.Refresh the browser page
+
+
+	9.The comments window is closed, and the user sees the same Shorts video as before
+	10.Repeat step #3
+
+
+	10.The pop-up window with user comments appears. The personal comment is correctly displayed, reflecting the change made in step #7
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+Test case #11
+Ability to like a comment
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Click on the "Comments" icon in the bottom right corner of the first video
+	3.A pop-up window with user comments appears
+	4.Click on the "Like" icon under the first comment
+	4.The "Like" icon turns white, and the number of "Likes" increases
+	5.Refresh the browser page
+	5.The comments window is closed, and the user sees the same Shorts video as before
+	6.Repeat step #3
+
+
+	6.A pop-up window with user comments appears. The comment rating is displayed correctly
+	
+
+
+
+Test case #12
+Ability to dislike a comment
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Click on the "Comments" icon in the bottom right corner of the first video
+	3.A pop-up window with user comments appears
+	4.Click on the "Dislike" icon below the first user comment
+	4.The "Dislike" icon turns white, and the number of "Dislikes" increases.
+	5.Refresh the browser page
+	5.The comments window is closed, and the user sees the same Shorts video as before
+	6.Repeat step #3
+
+
+	6.A pop-up window with user comments appears. The comment rating is displayed correctly
+	
+
+
+
+
+
+Test case #13
+Changing the rating of a comment
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Click on the "Comments" icon in the bottom right corner of the first video
+	3.A pop-up window with user comments appears
+	4.Click on the "Like" icon under the first comment
+	4.The "Like" icon turns white, and the number of "Likes" increases
+	5.Click on the "Dislike" icon next to the previously rated comment
+	5.The "Dislike" icon turns white, the number of "Dislikes" increases, the number of "Likes" decreases, and the icon becomes outlined
+	6.Refresh the browser page
+	6.The comments window is closed, and the user sees the same Shorts video as before
+	7.Repeat step #3
+	7.A pop-up window with user comments appears. The change in the comment rating is displayed correctly
+	
+
+
+
+Test case #14
+Replying to a comment
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Click on the "Comments" icon in the bottom right corner of the first video
+	3.A pop-up window with user comments appears
+	4.Click on the "Reply" button under the first comment from users
+	4.A field for entering a reply to the user's comment appears
+	5.Write a short text reply
+	5.The text reply is correctly displayed in the input field, and the "Reply" button below the input field becomes active
+	6.Click on the "Reply" button to the right side of the input field
+	6.The reply is published correctly
+	7.Refresh the browser page
+	7.The comments window is closed, and the user sees the same Shorts video as before
+	8.Repeat step #3
+	8.A pop-up window with user comments appears. The reply to the comment is displayed correctly
+
+
+	
+
+
+
+Test case #15
+Sorting video comments by popularity
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Click on the "Comments" icon in the bottom right corner of the first video
+	3.A pop-up window with user comments appears
+	4.Click on the "Sort" label above the list of user comments
+	4.A menu of ways to sort comments expands
+	5.Select the "Top comments first" option
+	5.Comments are sorted based on the number of positive ratings, from the most liked to the least
+	
+
+
+
+Test case #16
+Sorting comments under a video by novelty
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Click on the "Comments" icon in the bottom right corner of the first video
+	3.A pop-up window with user comments appears
+	4.Click on the "Sort" label above the list of user comments
+	4.A menu with ways to sort comments is expanded
+	5.Select the "Newest first" option
+	5.Comments are sorted by publication date, from most recently published to older ones
+	
+
+
+
+Test case #17
+Reporting a user comment as "Unwanted advertisement or spam"
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Click on the "Comments" icon in the bottom right corner of the first video
+	3.A pop-up window with user comments appears
+	4.Hover the mouse cursor over the line of the posted comment
+	4.A menu with actions (three dots) appears to the right side of the comment
+	5.Click on the action menu of a comment
+	5.The action menu expands correctly
+	6.Select the "Report" option
+	6.A window with reporting reasons appears
+	7.Choose the reason for the report as "Unwanted advertisement or spam."
+	7.The radio button for "Unwanted advertisement or spam" is clicked, and the "Submit" button becomes active
+	8.Click on the "Submit" button
+	8.A message appears saying "Your report has been received and will be reviewed shortly. If we find that the content violates our rules, we will remove it."
+	
+
+
+
+Test case #18
+The ability to like a video
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Click on the "Like" icon to the right side of the first video
+	3.The icon is filled with white color, and the number of likes increases (optionally, if the number is less than 1000)
+	
+
+
+
+Test case #19
+The ability to dislike a video
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Click on the "Dislike" icon to the right side of the first video
+	3.The icon is colored in white, and the number of "dislikes" increases (optional if the number is less than 1000)
+	
+
+
+
+Test case #20
+Changing the rating of a video
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Click on the "Like" icon to the right side of the first video
+	3.The icon is filled with white color, and the number of likes increases (optionally, if the number is less than 1000)
+	4.Click on the "Dislike" icon for the same video
+	4.The "Dislike" icon changes color, the number of dislikes increases, and the "Like" icon changes color, and the number of likes decreases accordingly
+	
+
+
+
+Test case #21
+Expanding the contextual menu for Shorts videos
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Click the contextual menu icon (three dots) located in the lower right corner of the first video
+	3.The contextual menu with a list of actions expands
+	
+
+
+
+
+
+
+
+
+
+Test case #22
+Submitting feedback about Youtube service through Shorts video
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Click the contextual menu icon (three dots) located in the lower right corner of the first video
+	3.The contextual menu expands
+	4.Select the "Submit Feedback" option from the list of additional actions
+
+
+	4.A feedback submission form for Youtube service appears on top of the active video screen, the video paused
+	5.Write a short message about the issue in the input field
+	5.The problem message is displayed correctly in the input field. The "Submit Feedback" button becomes active
+	6.Click on the "Submit Feedback" button
+	6.The message "Feedback submitted. Thank you!" appears 
+	
+
+
+
+Test case #23
+Giving permission to request additional information and send updates via email when writing a review for YouTube service
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Click the contextual menu icon (three dots) located in the lower right corner of the first video
+	3.The contextual menu expands
+	4.Choose the "Submit feedback" option
+	4.A feedback form for the YouTube service appears on top of the active video, the video paused
+	5.Check the checkbox next to the message "We may request additional information from you or notify you of updates by email"
+	5.The checkbox is checked
+
+
+	6.Write a brief message about the issue in the input field
+
+
+	6.The text of the issue is correctly displayed in the input field. The "Submit feedback" button becomes active
+	7.Click on the "Submit feedback" button
+	7.A message appears - "Feedback sent. Thank you!"
+	
+
+
+
+Test case #24
+Viewing the description of a Shorts video
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Click the contextual menu icon (three dots) located in the bottom right corner of the first video
+	3.The contextual menu expands
+	4.Select the "Description" option
+	4.A window with information about the video appears on top of the active video screen
+	
+
+
+
+Test case #25
+Redirection to the Shorts video author’s channel via the description window
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Click the contextual menu icon (three dots) located in the bottom right corner of the first video
+	3.The contextual menu expands
+	4.Select the "Description" option
+	4.A window with information about the video appears on top of the active video screen
+	5.Click on the name of the video author's channel
+	5.The user is redirected to the page of the author's channel
+	
+
+
+
+Test case #26
+Reporting a complaint on Shorts video "Harmful or dangerous actions"
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Click the contextual menu icon (three dots) located in the lower right corner of the first video
+	3.The contextual menu expands
+	4.Select the "Report" option
+	4.A menu with suggested complaint topics appears
+	5.Choose the "Harmful or dangerous actions" complaint
+	5.Options for specifying this complaint appear below the complaint title
+	6.Choose the option "Other dangerous actions"
+	6.The "Next" button on the bottom right corner of the window becomes active
+	7.Click on the "Next" button
+	7.A field for entering the reason for the complaint appears
+	8.Enter a brief message explaining the complaint and click the "Submit" button.
+	8.A message appears indicating that the complaint has been sent
+	
+
+
+
+Test case #27
+Request to not recommend Shorts videos from a channel
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Click the contextual menu icon (three dots) located in the lower right corner of the first video
+	3.The contextual menu expands
+	4.Select the "Don't recommend videos from this channel" option
+	4.A message appears on the bottom left corner of the screen saying "You will no longer see videos from this channel in recommendations". The video disappears, and the next video plays
+	
+
+
+
+Test case #28
+Canceling the request to not recommend Shorts videos from a channel
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Click the contextual menu icon (three dots) located in the lower right corner of the first video
+	3.The contextual menu expands
+	4.Select the option "Do not recommend videos from this channel"
+
+
+	4.A message appears on the bottom left corner of the screen stating "You will no longer see videos from this channel in recommendations." The video disappears, and the user is redirected to the next video
+	5.Click on the "Cancel" button in the message box in the bottom left corner of the screen
+	5.The message "You will no longer see videos from this channel in recommendations" disappears. When scrolling back, the user sees that the video has reappeared in its original position.
+	
+
+
+
+Test case #29
+Subscribing to the author's channel while watching Shorts video
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Click the "Subscribe" button below the first video 
+	3.The button changes to "Subscribed," and a message "Subscription added" appears in the bottom left corner of the screen
+	4.Click on the expanding sidebar icon (three horizontal bars) in the top left corner of the screen 
+	4.This subscription is displayed as the first one in the list of subscriptions on the side panel
+	
+
+
+
+
+
+
+
+
+
+Test case #30
+Unsubscribing from the author's Shorts video channel
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Under the first video, click on the "Subscribe" button 
+	3.The button changes to "Subscribed," and a message appears in the lower left corner stating "Subscription added."
+	4.Click on the "Subscribed" button at the bottom of the video
+	4.A pop-up window appears, asking for confirmation to unsubscribe
+	5.Click on the "Unsubscribe" option in the confirmation pop-up window
+	5.A message appears in the lower left corner of the screen stating "Subscription is canceled."
+	6.Click on the expandable sidebar icon (three horizontal lines) in the top left corner of the screen
+	6.In the list of subscriptions displayed on the sidebar, this subscription is not shown first from the top
+	
+
+
+
+Test case #31
+Scrolling Shorts videos using the mouse 
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Perform a one-time scrolling of the mouse downward
+	3.The video scrolls to the next one with a slight delay
+	4.Perform a one-time scrolling of the mouse upward
+	4.The video scrolls back to the previous one with a slight delay
+	
+
+
+
+Test case #32
+Scrolling Shorts videos using mouse clicks
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Click on the arrow icon in the bottom right corner using the mouse
+	3.The video scrolls to the next one
+
+
+	4.Click on the arrow icon in the top right corner using the mouse
+	4.The video scrolls back to the previous one
+	
+
+
+
+Test case #33
+Scrolling Shorts videos using hotkey
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Press the down arrow key on the keyboard among the main keys
+	3.The video scrolls to the next one
+
+
+	4.Press the up arrow key on the keyboard among the main keys
+	4.The video scrolls back to the previous one
+	
+
+
+
+Test case #34
+Viewing search results for similar Shorts videos using a hashtag under the video
+
+
+Steps
+	Expected result
+	1.Click on the sidebar icon (3 stripes) in the top left corner of a homepage
+	1.The sidebar with tabs,subscriptions and playlists is expanded
+	2.Click on the Shorts tab
+	2.The user is redirected to the Shorts tab page
+	3.Click on the hashtag under the Shorts video
+	3.The user sees a resulting page with Shorts videos corresponding to the hashtag text
+	
+
+
+
+
+
+
+
+
+
+Module #2
+Subscriptions tab
+
+
+
+
+Test case #1
+Redirection to the Subscriptions tab from the home page of the website
+
+
+Steps
+	Expected result
+	1.Click on the icon of the sidebar of the website (three bars) in the top left corner of the page
+	1.The sidebar of the website with tabs, subscriptions, and playlists is expanded
+
+
+	2.Click on the Subscriptions tab
+
+
+	2.The user is redirected to the Subscriptions tab page
+	
+
+
+
+Test case #2
+Playing a video from the list of new releases
+
+
+Steps
+	Expected result
+	1.Click on the icon of the sidebar of the website (three bars) in the top left corner of the page
+	1.The sidebar of the website with tabs, subscriptions, and playlists is expanded
+
+
+	2.Click on the Subscriptions tab
+
+
+	2.The user is redirected to the Subscriptions tab page
+	3.Click on the first video from the list of new releases
+	3.The user is redirected to the video playback page. The video plays correctly.
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+Test case #3
+Expanding the context menu of the video
+
+
+Steps
+	Expected result
+	1.Click on the icon of the sidebar of the website (three bars) in the top left corner of the page
+	1.The sidebar of the website with tabs, subscriptions, and playlists is expanded
+
+
+	2.Click on the Subscriptions tab
+
+
+	2.The user is redirected to the Subscriptions tab page
+	3.Hover the mouse cursor over the first video in the list of new releases
+	3.The context menu icon (three dots) appears on the right side of the video row
+	4.Click on the context menu icon (three dots) on the right side of the video row 
+	4.The context menu is expanded
+	
+
+
+
+Test case #4
+Hiding a video from the list of new releases
+
+
+Steps
+	Expected result
+	1.Click on the icon of the sidebar of the website (three bars) in the top left corner of the page
+	1.The sidebar of the website with tabs, subscriptions, and playlists is expanded
+
+
+	2.Click on the Subscriptions tab
+
+
+	2.The user is redirected to the Subscriptions tab page
+	3.Click on the context menu icon (three dots) on the right side of the video row 
+	3.The context menu is expanded
+	4.Select the "Hide" option
+	4.The video disappears, and a message "Video hidden" appears in its place.
+	5.Refresh the Subscriptions tab page
+	5.The hidden video is not displayed on the page
+	
+
+
+
+Test case #5
+Adding a video to the queue for viewing via the context menu
+
+
+Steps
+	Expected result
+	1.Click on the icon of the sidebar of the website (three bars) in the top left corner of the page
+	1.The sidebar of the website with tabs, subscriptions, and playlists is expanded
+
+
+	2.Click on the Subscriptions tab
+
+
+	2.The user is redirected to the Subscriptions tab page
+	3.Click on the context menu icon (three dots) on the right side of the video row 
+	3.The context menu is expanded
+	4.Select the "Add to Queue" option
+
+
+	4.Video player appears in the bottom right corner of the screen with the video paused
+	
+
+
+
+Test case #6
+Removing a video from the queue
+
+
+Steps
+	Expected result
+	1.Click on the icon of the sidebar of the website (three bars) in the top left corner of the page
+	1.The sidebar of the website with tabs, subscriptions, and playlists is expanded
+
+
+	2.Click on the Subscriptions tab
+
+
+	2.The user is redirected to the Subscriptions tab page
+	3.Click on the context menu icon (three dots) on the right side of the video row 
+	3.The context menu is expanded
+	4.Select the "Add to Queue" option
+
+
+	4.Video player appears in the bottom right corner of the screen with the video paused
+	5.Click on the “X” icon in the top right corner of the video player
+	5.A confirmation window for clearing the queue appears
+	6.Click on the "Close Player" button in the confirmation window for clearing the queue
+	6.The player is closed. A message "Queue cleared" appears in the bottom left corner
+	
+
+
+
+Test case #7
+Adding a video to the "Watch later" playlist via context menu
+
+
+Steps
+	Expected result
+	1.Click on the icon of the sidebar of the website (three bars) in the top left corner of the page
+	1.The sidebar of the website with tabs, subscriptions, and playlists is expanded
+
+
+	2.Click on the Subscriptions tab
+
+
+	2.The user is redirected to the Subscriptions tab page
+	3.Click on the context menu icon (three dots) on the right side of the video row 
+	3.The context menu is expanded
+	4.Select the "Watch later" option
+	4.A message "Added to the 'Watch later' playlist" appears in the bottom left corner of the screen
+	5.Click on the "Watch later" tab in the site's sidebar
+	5.The video is present in the list of added videos
+	
+
+
+
+Test case #8
+Cancel adding a video to the "Watch later" playlist
+
+
+Steps
+	Expected result
+	1.Click on the icon of the sidebar of the website (three bars) in the top left corner of the page
+	1.The sidebar of the website with tabs, subscriptions, and playlists is expanded
+
+
+	2.Click on the Subscriptions tab
+
+
+	2.The user is redirected to the Subscriptions tab page
+	3.Click on the context menu icon (three dots) on the right side of the video row 
+	3.The context menu is expanded
+	4.Select the "Watch later" option
+	4.A message "Added to the 'Watch later' playlist" appears in the bottom left corner of the screen
+	5.Click on the blue "Cancel" text in the message that appears in the bottom left corner of the screen that says "Added to the 'Watch later' playlist"
+	5.The message "Added to the 'Watch later' playlist" disappears
+	6.Click on the "Watch later" tab in the site's sidebar
+	6.The video is not displayed in the list
+	
+
+
+
+Test case #9
+Adding a video to a personal playlist via context menu
+
+
+Steps
+	Expected result
+	1.Click on the icon of the sidebar of the website (three bars) in the top left corner of the page
+	1.The sidebar of the website with tabs, subscriptions, and playlists is expanded
+
+
+	2.Click on the Subscriptions tab
+
+
+	2.The user is redirected to the Subscriptions tab page
+	3.Click on the context menu icon (three dots) on the right side of the video row 
+	3.The context menu is expanded
+	4.Select the "Add to playlist" option
+	4.A window with a list of playlists appears
+	5.Click the checkbox next to the first playlist
+
+
+	5.The checkbox is checked and a message "Added to playlist" appears in the bottom left corner of the screen
+	6.Close the window with the list of playlists by clicking  “X” icon in the upper right corner
+	6.The window with the list of playlists closes
+	7.Click on the playlist in the sidebar where the video was added
+	7.The video is present in the selected playlist
+	
+
+
+
+
+
+
+
+Test case #10
+Canceling the addition of a video to a personal playlist via pop-up message
+
+
+Steps
+	Expected result
+	1.Click on the icon of the sidebar of the website (three bars) in the top left corner of the page
+	1.The sidebar of the website with tabs, subscriptions, and playlists is expanded
+
+
+	2.Click on the Subscriptions tab
+
+
+	2.The user is redirected to the Subscriptions tab page
+	3.Click on the context menu icon (three dots) on the right side of the video row 
+	3.The context menu is expanded
+	4.Select the "Add to playlist" option
+	4.A window with a list of playlists appears
+	5.Click the checkbox next to the first playlist
+
+
+	5.The checkbox is checked and a message "Added to playlist" appears in the bottom left corner of the screen
+	6.Click the blue button "Cancel"  in the "Added to playlist" message box in the bottom left corner of the screen
+	6.The "Added to playlist" message box disappears
+
+
+	7.Close the window with the list of playlists by clicking “X” icon in the upper right corner
+	7.The window with the list of playlists closes
+	8.Click on the playlist in the sidebar where the addition was canceled
+
+
+	8.The video is not displayed in the selected playlist
+	
+
+
+
+
+
+
+
+
+
+Test case #11
+Cancel adding a video to a personal playlist via playlist menu window
+
+
+Steps
+	Expected result
+	1.Click on the icon of the sidebar of the website (three bars) in the top left corner of the page
+	1.The sidebar of the website with tabs, subscriptions, and playlists is expanded
+
+
+	2.Click on the Subscriptions tab
+
+
+	2.The user is redirected to the Subscriptions tab page
+	3.Click on the context menu icon (three dots) on the right side of the video row 
+	3.The context menu is expanded
+	4.Select the "Add to playlist" option
+	4.A window with a list of playlists appears
+	5.Click the checkbox next to the first playlist
+
+
+	5.The checkbox is checked and a message "Added to playlist" appears in the bottom left corner of the screen
+	6.Click on the checkbox of the playlist to which the video was added in the playlist menu window
+	6.The checkbox is cleared. A message "Video removed from playlist" appears in the bottom left corner of the screen
+	7.Close the playlist menu window by clicking on “X” icon in the top right corner
+	7.The playlist menu window is closed
+
+
+	8.Click on the playlist in the site sidebar where the addition was canceled
+	8.The video is not displayed in this playlist
+
+
+	
+
+
+
+Test case #12
+Adding a video to two different playlists via context menu
+
+
+Steps
+	Expected result
+	1.Click on the icon of the sidebar of the website (three bars) in the top left corner of the page
+	1.The sidebar of the website with tabs, subscriptions, and playlists is expanded
+
+
+	2.Click on the Subscriptions tab
+
+
+	2.The user is redirected to the Subscriptions tab page
+	3.Click on the context menu icon (three dots) on the right side of the video row 
+	3.The context menu is expanded
+	4.Select the "Add to playlist" option
+	4.A window with a list of playlists appears
+	5.Click the checkbox next to the first playlist
+
+
+	5.The checkbox is checked and a message "Added to playlist" appears in the bottom left corner of the screen
+	6.Click on the checkbox next to the second playlist
+	6.The checkbox is checked. A message "Added to playlist" appears in the bottom left corner of the screen
+	7.Close the playlist menu window by clicking on “X” icon in the top right corner
+	7.The playlist menu window is closed
+
+
+	8.Click on the first playlist in the site sidebar where the video was added
+
+
+	8.The video is displayed in this playlist
+
+
+	9.Click on the second playlist in the site sidebar where the video was added
+	9.The video is displayed in this playlist
+	
+
+
+
+
+
+Test case #13
+Adding a video to the "Watch Later" playlist via the cover
+
+
+Steps
+	Expected result
+	1.Click on the icon of the sidebar of the website (three bars) in the top left corner of the page
+	1.The sidebar of the website with tabs, subscriptions, and playlists is expanded
+
+
+	2.Click on the Subscriptions tab
+
+
+	2.The user is redirected to the Subscriptions tab page
+	3.Hover the mouse cursor over the first video
+	3.The "Watch Later" icon, which looks like a clock, appears on the video cover
+	4.Click on the "Watch Later" icon on the video cover (clock)
+	4.The icon changes to a check mark, and a message appears in the bottom left corner of the screen that says "Added to the 'Watch Later' playlist."
+	5.Click on the "Watch Later" tab in the site's sidebar
+	5.The video is listed in the added videos
+	
+
+
+
+Test case #14
+Adding a video to the queue via the cover
+
+
+Steps
+	Expected result
+	1.Click on the icon of the sidebar of the website (three bars) in the top left corner of the page
+	1.The sidebar of the website with tabs, subscriptions, and playlists is expanded
+
+
+	2.Click on the Subscriptions tab
+
+
+	2.The user is redirected to the Subscriptions tab page
+	3.Hover the mouse cursor over the first video
+	3.The "Add to queue" icon, which looks like a triangle and lines, appears on the video cover
+	4.Click on the "Add to queue" icon on the video cover (triangle and lines)
+	4.A video player appears in the lower right corner of the screen, with the video paused.
+
+
+	
+
+
+
+Test case #15
+Going to a channel via the list of new releases
+
+
+Steps
+	Expected result
+	1.Click on the icon of the sidebar of the website (three bars) in the top left corner of the page
+	1.The sidebar of the website with tabs, subscriptions, and playlists is expanded
+
+
+	2.Click on the Subscriptions tab
+
+
+	2.The user is redirected to the Subscriptions tab page
+	3.Hover the mouse over the description of the first video in the list of new releases
+	3.When hovering over the name of the channel that posted the video, the font becomes bold
+	4.Click on the name of the channel that posted the video
+	4.The channel page is displayed
+
+
+	
+
+
+
+Test case #16
+Displaying a list of new releases as a grid
+
+
+Steps
+	Expected result
+	1.Click on the icon of the side panel of the website (three bars) in the top left corner of the page
+	1.The side panel of the website with tabs, subscriptions, and playlists is expanded
+
+
+	2.Click on the Subscriptions tab
+
+
+	2.The user is redirected to the Subscriptions tab page
+	3.Click on the "Grid" icon (6 small squares) in the upper left corner of the screen
+	3.The list of new releases is displayed in a grid format instead of the default list format
+	
+
+
+
+
+
+
+
+Test case #17
+Displaying a list of new releases as a list
+
+
+Steps
+	Expected result
+	1.Click on the icon of the sidebar of the website (three bars) in the top left corner of the page
+	1.The sidebar of the website with tabs, subscriptions, and playlists is expanded
+
+
+	2.Click on the Subscriptions tab
+
+
+	2.The user is redirected to the Subscriptions tab page
+	3.Click on the "List" icon (three lines) in the upper left corner of the screen.
+
+
+	3.The display of the new releases will change from a grid format to a list format
+	
+
+
+
+
+
+Test case #18
+Redirection to the subscription management page
+
+
+Steps
+	Expected result
+	1.Click on the icon of the sidebar of the website (three bars) in the top left corner of the page
+	1.The sidebar of the website with tabs, subscriptions, and playlists is expanded
+
+
+	2.Click on the Subscriptions tab
+
+
+	2.The user is redirected to the Subscriptions tab page
+	3.Click on the "Subscription Management" label in the upper left corner of the screen
+	3.The user is redirected to the page with a list of his subscriptions
+	
+
+
+
+Test case #19
+Opening a video in multiple tabs simultaneously
+
+
+Steps
+	Expected result
+	1.Click on the icon of the sidebar of the website (three bars) in the top left corner of the page
+	1.The sidebar of the website with tabs, subscriptions, and playlists is expanded
+
+
+	2.Click on the Subscriptions tab
+
+
+	2.The user is redirected to the Subscriptions tab page
+	3.Hover the mouse over the first video and click on it several times with the mouse scroll wheel
+	3.Multiple playback tabs of this video are opened
+	4.Check all tabs for successful video playback
+	4.All tabs correctly display the video, and playback starts from the moment of switching between tabs.
+	
+
+
+
+Test case #20
+Repeatedly adding the same video to the "Watch later" playlist via the context menu
+
+
+Steps
+	Expected result
+	1.Click on the icon of the sidebar of the website (three bars) in the top left corner of the page
+	1.The sidebar of the website with tabs, subscriptions, and playlists is expanded
+
+
+	2.Click on the Subscriptions tab
+
+
+	2.The user is redirected to the Subscriptions tab page
+	3.Click on the context menu icon (three dots) on the right side of the first video in the list
+	3.The context menu expands into a list of actions with the video
+
+
+	4.Select the "Watch later" option
+	4.The message "Added to the "Watch later" playlist" appears in the bottom left corner
+	5.Repeat step #4
+	5.The message "Added to the "Watch later" playlist" appears in the bottom left corner again
+	6.Click on the "Watch later" tab in the sidebar
+
+
+	6.This video is displayed only once in the list
+	
+
+
+
+Test case #21
+Repetitive addition of the same video to the playback queue via context menu
+
+
+Steps
+	Expected result
+	1.Click on the icon of the sidebar of the website (three bars) in the top left corner of the page
+	1.The sidebar of the website with tabs, subscriptions, and playlists is expanded
+
+
+	2.Click on the Subscriptions tab
+
+
+	2.The user is redirected to the Subscriptions tab page
+	3.Click on the context menu icon (three dots) on the right side of the first video in the list
+	3.The context menu expands into a list of actions with the video
+
+
+	4.Select the "Add to queue" option
+
+
+	4.The video's cover displays a "Current video" message. A video player with the video on pause appears in the bottom right corner of the screen.
+	5.Repeat step #4
+
+
+	5.A message "Added to the "Queue" playlist" appears in the bottom left corner of the screen. The number of videos in the queue is updated in the player
